@@ -12,4 +12,6 @@ add_executable(LearnJNI
         TheJavaNativeInterface/chapter02/HelloWorld.c
         TheJavaNativeInterface/chapter02/HelloWorld.h
         TheJavaNativeInterface/chapter03/Prompt/Prompt.c
-        TheJavaNativeInterface/chapter03/Prompt/Prompt.h)
+        TheJavaNativeInterface/chapter03/Prompt/Prompt.h
+        TheJavaNativeInterface/chapter03/IntArray/IntArray.c
+        TheJavaNativeInterface/chapter03/IntArray/IntArray.h)
