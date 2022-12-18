@@ -13,10 +13,15 @@
 - **HelloWorld.java**
 ```java
 class HelloWorld {
+    // The "native" modifier indicates that this method is implemented in another language
     private native void print();
+    
     public static void main(String[] args) {
         new HelloWorld().print();
     }
+    
+    // We need to create a native library called HelloWorld.dll on Win32,
+    // or libHelloWorld.so on Solaris
     static {
         System.loadLibrary("HelloWorld");
     }
